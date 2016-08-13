@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67CB7EFCB0DCE9DFBB46D300 /* Pods_geographyQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */; };
+		6828EC493E88C98FF6D96A85 /* Pods_geographyQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE152D53BEE40885D296519 /* Pods_geographyQuizTests.framework */; };
 		951499881D5FDFEA009390B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499871D5FDFEA009390B5 /* AppDelegate.swift */; };
 		9514998A1D5FDFEA009390B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499891D5FDFEA009390B5 /* ViewController.swift */; };
 		9514998D1D5FDFEA009390B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9514998B1D5FDFEA009390B5 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		951499921D5FDFEA009390B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951499901D5FDFEA009390B5 /* LaunchScreen.storyboard */; };
 		9514999D1D5FDFEA009390B5 /* geographyQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514999C1D5FDFEA009390B5 /* geographyQuizTests.swift */; };
 		951499A81D5FDFEA009390B5 /* geographyQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499A71D5FDFEA009390B5 /* geographyQuizUITests.swift */; };
+		ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D85A8BC38A9068259FBA049 /* Pods-geographyQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizUITests/Pods-geographyQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34C3D72AFD8B620B7C5587A1 /* Pods-geographyQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		4645C5E42F39A3D36BD3E0B4 /* Pods-geographyQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizUITests/Pods-geographyQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CE94BFAD4CB08AE88689E32 /* Pods-geographyQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuiz/Pods-geographyQuiz.release.xcconfig"; sourceTree = "<group>"; };
 		951499841D5FDFE9009390B5 /* geographyQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geographyQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951499871D5FDFEA009390B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		951499891D5FDFEA009390B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		951499A31D5FDFEA009390B5 /* geographyQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geographyQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951499A71D5FDFEA009390B5 /* geographyQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geographyQuizUITests.swift; sourceTree = "<group>"; };
 		951499A91D5FDFEA009390B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C977326DD503311C43E401E7 /* Pods-geographyQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuiz/Pods-geographyQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE152D53BEE40885D296519 /* Pods_geographyQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6828EC493E88C98FF6D96A85 /* Pods_geographyQuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CB7EFCB0DCE9DFBB46D300 /* Pods_geographyQuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CE253BEF4917388FC061B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */,
+				DCE152D53BEE40885D296519 /* Pods_geographyQuizTests.framework */,
+				C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EE1F68155959D042A491E9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C977326DD503311C43E401E7 /* Pods-geographyQuiz.debug.xcconfig */,
+				6CE94BFAD4CB08AE88689E32 /* Pods-geographyQuiz.release.xcconfig */,
+				A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */,
+				34C3D72AFD8B620B7C5587A1 /* Pods-geographyQuizTests.release.xcconfig */,
+				0D85A8BC38A9068259FBA049 /* Pods-geographyQuizUITests.debug.xcconfig */,
+				4645C5E42F39A3D36BD3E0B4 /* Pods-geographyQuizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9514997B1D5FDFE9009390B5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				9514999B1D5FDFEA009390B5 /* geographyQuizTests */,
 				951499A61D5FDFEA009390B5 /* geographyQuizUITests */,
 				951499851D5FDFE9009390B5 /* Products */,
+				4EE1F68155959D042A491E9E /* Pods */,
+				3CE253BEF4917388FC061B6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951499AC1D5FDFEA009390B5 /* Build configuration list for PBXNativeTarget "geographyQuiz" */;
 			buildPhases = (
+				C3EAD9FC14B7A5A17503D1D5 /* [CP] Check Pods Manifest.lock */,
 				951499801D5FDFE9009390B5 /* Sources */,
 				951499811D5FDFE9009390B5 /* Frameworks */,
 				951499821D5FDFE9009390B5 /* Resources */,
+				BF832C949B759189C88B47B2 /* [CP] Embed Pods Frameworks */,
+				CF3EA046CCF19134D42EAF43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951499AF1D5FDFEA009390B5 /* Build configuration list for PBXNativeTarget "geographyQuizTests" */;
 			buildPhases = (
+				00FDBF323F44C5F9F840E670 /* [CP] Check Pods Manifest.lock */,
 				951499941D5FDFEA009390B5 /* Sources */,
 				951499951D5FDFEA009390B5 /* Frameworks */,
 				951499961D5FDFEA009390B5 /* Resources */,
+				14FBBE9792F7AB6C24B0DBF9 /* [CP] Embed Pods Frameworks */,
+				FAEC5643210A1820909E794F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 951499B21D5FDFEA009390B5 /* Build configuration list for PBXNativeTarget "geographyQuizUITests" */;
 			buildPhases = (
+				87672182A991D96E28156893 /* [CP] Check Pods Manifest.lock */,
 				9514999F1D5FDFEA009390B5 /* Sources */,
 				951499A01D5FDFEA009390B5 /* Frameworks */,
 				951499A11D5FDFEA009390B5 /* Resources */,
+				EF51E8431073C5C2895CA528 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FDBF323F44C5F9F840E670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14FBBE9792F7AB6C24B0DBF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87672182A991D96E28156893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF832C949B759189C88B47B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geographyQuiz/Pods-geographyQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EAD9FC14B7A5A17503D1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3EA046CCF19134D42EAF43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geographyQuiz/Pods-geographyQuiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF51E8431073C5C2895CA528 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geographyQuizUITests/Pods-geographyQuizUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEC5643210A1820909E794F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		951499801D5FDFE9009390B5 /* Sources */ = {
@@ -402,6 +573,7 @@
 		};
 		951499AD1D5FDFEA009390B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C977326DD503311C43E401E7 /* Pods-geographyQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = geographyQuiz/Info.plist;
@@ -413,6 +585,7 @@
 		};
 		951499AE1D5FDFEA009390B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE94BFAD4CB08AE88689E32 /* Pods-geographyQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = geographyQuiz/Info.plist;
@@ -424,6 +597,7 @@
 		};
 		951499B01D5FDFEA009390B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = geographyQuizTests/Info.plist;
@@ -436,6 +610,7 @@
 		};
 		951499B11D5FDFEA009390B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C3D72AFD8B620B7C5587A1 /* Pods-geographyQuizTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = geographyQuizTests/Info.plist;
@@ -448,6 +623,7 @@
 		};
 		951499B31D5FDFEA009390B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D85A8BC38A9068259FBA049 /* Pods-geographyQuizUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = geographyQuizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +635,7 @@
 		};
 		951499B41D5FDFEA009390B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4645C5E42F39A3D36BD3E0B4 /* Pods-geographyQuizUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = geographyQuizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +664,7 @@
 				951499AE1D5FDFEA009390B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951499AF1D5FDFEA009390B5 /* Build configuration list for PBXNativeTarget "geographyQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +673,7 @@
 				951499B11D5FDFEA009390B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951499B21D5FDFEA009390B5 /* Build configuration list for PBXNativeTarget "geographyQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +682,7 @@
 				951499B41D5FDFEA009390B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
