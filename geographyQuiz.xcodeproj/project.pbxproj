@@ -16,6 +16,18 @@
 		951499921D5FDFEA009390B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951499901D5FDFEA009390B5 /* LaunchScreen.storyboard */; };
 		9514999D1D5FDFEA009390B5 /* geographyQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514999C1D5FDFEA009390B5 /* geographyQuizTests.swift */; };
 		951499A81D5FDFEA009390B5 /* geographyQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499A71D5FDFEA009390B5 /* geographyQuizUITests.swift */; };
+		951499B81D5FE2CE009390B5 /* PickContinentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499B71D5FE2CE009390B5 /* PickContinentViewController.swift */; };
+		951499BB1D5FE305009390B5 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499BA1D5FE305009390B5 /* CoreDataViewController.swift */; };
+		951499BE1D5FE374009390B5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 951499BC1D5FE374009390B5 /* Model.xcdatamodeld */; };
+		951499C91D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */; };
+		951499CA1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */; };
+		951499CB1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */; };
+		951499CC1D5FE54A009390B5 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C81D5FE54A009390B5 /* CountryModel.swift */; };
+		951499CD1D5FE54A009390B5 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C81D5FE54A009390B5 /* CountryModel.swift */; };
+		951499CE1D5FE54A009390B5 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499C81D5FE54A009390B5 /* CountryModel.swift */; };
+		951499D01D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
+		951499D11D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
+		951499D21D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
 		ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +66,12 @@
 		951499A31D5FDFEA009390B5 /* geographyQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geographyQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951499A71D5FDFEA009390B5 /* geographyQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geographyQuizUITests.swift; sourceTree = "<group>"; };
 		951499A91D5FDFEA009390B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951499B71D5FE2CE009390B5 /* PickContinentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickContinentViewController.swift; sourceTree = "<group>"; };
+		951499BA1D5FE305009390B5 /* CoreDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		951499BD1D5FE374009390B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		951499C81D5FE54A009390B5 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		951499CF1D5FE57E009390B5 /* CodeDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeDataStack.swift; sourceTree = "<group>"; };
 		A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +155,8 @@
 		951499861D5FDFE9009390B5 /* geographyQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				951499B61D5FE2A6009390B5 /* Controllers */,
+				951499B51D5FE29C009390B5 /* Models */,
 				951499871D5FDFEA009390B5 /* AppDelegate.swift */,
 				951499891D5FDFEA009390B5 /* ViewController.swift */,
 				9514998B1D5FDFEA009390B5 /* Main.storyboard */,
@@ -163,6 +183,26 @@
 				951499A91D5FDFEA009390B5 /* Info.plist */,
 			);
 			path = geographyQuizUITests;
+			sourceTree = "<group>";
+		};
+		951499B51D5FE29C009390B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */,
+				951499C81D5FE54A009390B5 /* CountryModel.swift */,
+				951499BC1D5FE374009390B5 /* Model.xcdatamodeld */,
+				951499CF1D5FE57E009390B5 /* CodeDataStack.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		951499B61D5FE2A6009390B5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				951499B71D5FE2CE009390B5 /* PickContinentViewController.swift */,
+				951499BA1D5FE305009390B5 /* CoreDataViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +470,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951499CC1D5FE54A009390B5 /* CountryModel.swift in Sources */,
+				951499D01D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
+				951499B81D5FE2CE009390B5 /* PickContinentViewController.swift in Sources */,
+				951499BB1D5FE305009390B5 /* CoreDataViewController.swift in Sources */,
+				951499C91D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
+				951499BE1D5FE374009390B5 /* Model.xcdatamodeld in Sources */,
 				9514998A1D5FDFEA009390B5 /* ViewController.swift in Sources */,
 				951499881D5FDFEA009390B5 /* AppDelegate.swift in Sources */,
 			);
@@ -439,7 +485,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951499CA1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
+				951499D11D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
 				9514999D1D5FDFEA009390B5 /* geographyQuizTests.swift in Sources */,
+				951499CD1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +496,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951499CB1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
+				951499D21D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
 				951499A81D5FDFEA009390B5 /* geographyQuizUITests.swift in Sources */,
+				951499CE1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,6 +737,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		951499BC1D5FE374009390B5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				951499BD1D5FE374009390B5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 951499BD1D5FE374009390B5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9514997C1D5FDFE9009390B5 /* Project object */;
 }
