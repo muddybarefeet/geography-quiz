@@ -6,8 +6,8 @@ target 'geographyQuiz' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'SwiftyJSON'
-  pod 'Mapbox-iOS-SDK', '~> 3.3.4'
-  # Pods for overlayPractice
+  
+  # Pods for geographyQuiz
 
   target 'geographyQuizTests' do
     inherit! :search_paths

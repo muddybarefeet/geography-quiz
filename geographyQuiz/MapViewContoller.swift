@@ -9,27 +9,15 @@
 import UIKit
 import MapKit
 import CoreData
-import Mapbox
+import MapKit
 
-class MapViewContoller: CoreDataController, MKMapViewDelegate, MGLMapViewDelegate {
+class MapViewContoller: CoreDataController, MKMapViewDelegate {
 
     var continentSelected: String = ""
-    @IBOutlet weak var mapView: MKMapView!
+//    @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // override mapkit map with custom mapbox map
-        let styleURL = NSURL(string: "mapbox://styles/muddybarefeet/cirqndapf001sg6km4t2uw2ph")
-        let mapView = MGLMapView(frame: view.bounds, styleURL: styleURL)
-        mapView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
-        // Set the map’s center coordinate and zoom level.
-        mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: 59.31, longitude: 18.06), zoomLevel: 1, animated: false)
-        view.addSubview(mapView)
-        
-        // Add button to nav bar to remove all the overlays
-        let showButton: UIBarButtonItem = UIBarButtonItem(title: "Show All", style: .Plain, target: self, action: #selector(self.showAllCountries))
-        self.navigationItem.rightBarButtonItem = showButton
         
         // Extrcat the data from core data
         let app = UIApplication.sharedApplication().delegate as! AppDelegate
