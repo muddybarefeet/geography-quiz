@@ -36,6 +36,8 @@
 		956BC6B21D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
 		956BC6B31D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
 		956BC6B41D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
+		956BC6B51D5FF2FD006AF440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499871D5FDFEA009390B5 /* AppDelegate.swift */; };
+		956BC6B61D5FF2FE006AF440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499871D5FDFEA009390B5 /* AppDelegate.swift */; };
 		ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -505,6 +507,7 @@
 				951499D51D5FED87009390B5 /* MapViewContoller.swift in Sources */,
 				951499D11D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
 				951499D71D5FEDC2009390B5 /* CoreDataViewController.swift in Sources */,
+				956BC6B51D5FF2FD006AF440 /* AppDelegate.swift in Sources */,
 				9514999D1D5FDFEA009390B5 /* geographyQuizTests.swift in Sources */,
 				951499CD1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
@@ -518,6 +521,7 @@
 				951499D61D5FED87009390B5 /* MapViewContoller.swift in Sources */,
 				951499D21D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
 				951499D81D5FEDC3009390B5 /* CoreDataViewController.swift in Sources */,
+				956BC6B61D5FF2FE006AF440 /* AppDelegate.swift in Sources */,
 				951499A81D5FDFEA009390B5 /* geographyQuizUITests.swift in Sources */,
 				951499CE1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
