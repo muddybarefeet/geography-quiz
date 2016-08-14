@@ -25,40 +25,42 @@ class ChoiceViewController: CoreDataController {
     
     var continentChoice: String = ""
     
-    @IBAction func asiaButton(sender: AnyObject) {
+    @IBAction func asia(sender: AnyObject) {
+        continentChoice = senderTag[sender.tag]!
+        performSegueWithIdentifier("showMap", sender: nil)
+    }
+  
+    @IBAction func africa(sender: AnyObject) {
         continentChoice = senderTag[sender.tag]!
         performSegueWithIdentifier("showMap", sender: nil)
     }
     
-    @IBAction func ocianiaButton(sender: AnyObject) {
+    @IBAction func europe(sender: AnyObject) {
         continentChoice = senderTag[sender.tag]!
         performSegueWithIdentifier("showMap", sender: nil)
     }
     
-    @IBAction func africaButton(sender: AnyObject) {
+    
+    @IBAction func ociania(sender: AnyObject) {
         continentChoice = senderTag[sender.tag]!
         performSegueWithIdentifier("showMap", sender: nil)
     }
     
-    @IBAction func europeButton(sender: AnyObject) {
+    @IBAction func northAmerica(sender: AnyObject) {
         continentChoice = senderTag[sender.tag]!
         performSegueWithIdentifier("showMap", sender: nil)
     }
     
-    @IBAction func northAmericaButton(sender: AnyObject) {
+    @IBAction func southAmerica(sender: AnyObject) {
         continentChoice = senderTag[sender.tag]!
         performSegueWithIdentifier("showMap", sender: nil)
     }
     
-    @IBAction func southAmericaButton(sender: AnyObject) {
-        continentChoice = senderTag[sender.tag]!
-        performSegueWithIdentifier("showMap", sender: nil)
-    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showMap" {
-            let controller = segue.destinationViewController as! ViewController
-            controller.continent = continentChoice
+            let controller = segue.destinationViewController as! MapViewContoller
+            controller.continentSelected = continentChoice
         }
     }
     

@@ -28,6 +28,11 @@
 		951499D01D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
 		951499D11D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
 		951499D21D5FE57E009390B5 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499CF1D5FE57E009390B5 /* CodeDataStack.swift */; };
+		951499D41D5FED87009390B5 /* MapViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499D31D5FED87009390B5 /* MapViewContoller.swift */; };
+		951499D51D5FED87009390B5 /* MapViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499D31D5FED87009390B5 /* MapViewContoller.swift */; };
+		951499D61D5FED87009390B5 /* MapViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499D31D5FED87009390B5 /* MapViewContoller.swift */; };
+		951499D71D5FEDC2009390B5 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499BA1D5FE305009390B5 /* CoreDataViewController.swift */; };
+		951499D81D5FEDC3009390B5 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499BA1D5FE305009390B5 /* CoreDataViewController.swift */; };
 		ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +77,7 @@
 		951499C71D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		951499C81D5FE54A009390B5 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		951499CF1D5FE57E009390B5 /* CodeDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeDataStack.swift; sourceTree = "<group>"; };
+		951499D31D5FED87009390B5 /* MapViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewContoller.swift; sourceTree = "<group>"; };
 		A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +207,7 @@
 			children = (
 				951499B71D5FE2CE009390B5 /* PickContinentViewController.swift */,
 				951499BA1D5FE305009390B5 /* CoreDataViewController.swift */,
+				951499D31D5FED87009390B5 /* MapViewContoller.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -474,6 +481,7 @@
 				951499D01D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
 				951499B81D5FE2CE009390B5 /* PickContinentViewController.swift in Sources */,
 				951499BB1D5FE305009390B5 /* CoreDataViewController.swift in Sources */,
+				951499D41D5FED87009390B5 /* MapViewContoller.swift in Sources */,
 				951499C91D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
 				951499BE1D5FE374009390B5 /* Model.xcdatamodeld in Sources */,
 				9514998A1D5FDFEA009390B5 /* ViewController.swift in Sources */,
@@ -486,7 +494,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				951499CA1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
+				951499D51D5FED87009390B5 /* MapViewContoller.swift in Sources */,
 				951499D11D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
+				951499D71D5FEDC2009390B5 /* CoreDataViewController.swift in Sources */,
 				9514999D1D5FDFEA009390B5 /* geographyQuizTests.swift in Sources */,
 				951499CD1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
@@ -497,7 +507,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				951499CB1D5FE54A009390B5 /* CountryModel+CoreDataProperties.swift in Sources */,
+				951499D61D5FED87009390B5 /* MapViewContoller.swift in Sources */,
 				951499D21D5FE57E009390B5 /* CodeDataStack.swift in Sources */,
+				951499D81D5FEDC3009390B5 /* CoreDataViewController.swift in Sources */,
 				951499A81D5FDFEA009390B5 /* geographyQuizUITests.swift in Sources */,
 				951499CE1D5FE54A009390B5 /* CountryModel.swift in Sources */,
 			);
