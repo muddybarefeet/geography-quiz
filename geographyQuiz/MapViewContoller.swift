@@ -18,6 +18,8 @@ class MapViewContoller: CoreDataController, MKMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("map view loaded")
+        
         // Add button to nav bar to remove all the overlays
         let showButton: UIBarButtonItem = UIBarButtonItem(title: "Show All", style: .Plain, target: self, action: #selector(self.showAllCountries))
         self.navigationItem.rightBarButtonItem = showButton

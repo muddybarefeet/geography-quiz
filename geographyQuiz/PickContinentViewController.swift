@@ -16,9 +16,9 @@ class ChoiceViewController: CoreDataController {
     
     var senderTag = [
         1: "AS",
-        2: "OC",
-        3: "AF",
-        4: "EU",
+        2: "AF",
+        3: "EU",
+        4: "OC",
         5: "NA",
         6: "SA"
     ]
