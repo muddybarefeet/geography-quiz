@@ -9,12 +9,13 @@
 import UIKit
 import MapKit
 import CoreData
-import MapKit
 
 class MapViewContoller: CoreDataController, MKMapViewDelegate {
 
     var continentSelected: String = ""
 //    @IBOutlet weak var mapView: MKMapView!
+    
+    @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
