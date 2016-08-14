@@ -21,11 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //preloadData ()
         // Only want to load core data when the app first loads
         let defaults = NSUserDefaults.standardUserDefaults()
-        let isPreloaded = defaults.boolForKey("isPreloaded")
+        let isPreloaded = defaults.boolForKey("dataPreloaded")
         if !isPreloaded {
             print("data not preloaded yet ...")
             preloadData()
-            defaults.setBool(true, forKey: "isPreloaded")
+            defaults.setBool(true, forKey: "dataPreloaded")
         } else {
             print("data is already loaded into core data")
         }
@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func preloadData () {
         //1. read the json file
-        if let path = NSBundle.mainBundle().pathForResource("countries2", ofType: "json") {
+        if let path = NSBundle.mainBundle().pathForResource("countries", ofType: "json") {
             do {
                 let data = try NSData(contentsOfURL: NSURL(fileURLWithPath: path), options: NSDataReadingOptions.DataReadingMappedIfSafe)
                 let jsonObj = JSON(data: data)

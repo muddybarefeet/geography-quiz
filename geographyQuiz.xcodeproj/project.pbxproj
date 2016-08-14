@@ -33,6 +33,9 @@
 		951499D61D5FED87009390B5 /* MapViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499D31D5FED87009390B5 /* MapViewContoller.swift */; };
 		951499D71D5FEDC2009390B5 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499BA1D5FE305009390B5 /* CoreDataViewController.swift */; };
 		951499D81D5FEDC3009390B5 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951499BA1D5FE305009390B5 /* CoreDataViewController.swift */; };
+		956BC6B21D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
+		956BC6B31D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
+		956BC6B41D5FF1FA006AF440 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BC6B11D5FF1FA006AF440 /* countries.json */; };
 		ABE2C8F7ECC398B10AD75D07 /* Pods_geographyQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +81,7 @@
 		951499C81D5FE54A009390B5 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		951499CF1D5FE57E009390B5 /* CodeDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeDataStack.swift; sourceTree = "<group>"; };
 		951499D31D5FED87009390B5 /* MapViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewContoller.swift; sourceTree = "<group>"; };
+		956BC6B11D5FF1FA006AF440 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		A1094A7AB292748DA293CAD4 /* Pods-geographyQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geographyQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geographyQuizTests/Pods-geographyQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF7695B2131975090BFAA40 /* Pods_geographyQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EF30AA12CC4F085EA48123 /* Pods_geographyQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geographyQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +173,7 @@
 				9514998E1D5FDFEA009390B5 /* Assets.xcassets */,
 				951499901D5FDFEA009390B5 /* LaunchScreen.storyboard */,
 				951499931D5FDFEA009390B5 /* Info.plist */,
+				956BC6B11D5FF1FA006AF440 /* countries.json */,
 			);
 			path = geographyQuiz;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				951499921D5FDFEA009390B5 /* LaunchScreen.storyboard in Resources */,
+				956BC6B21D5FF1FA006AF440 /* countries.json in Resources */,
 				9514998F1D5FDFEA009390B5 /* Assets.xcassets in Resources */,
 				9514998D1D5FDFEA009390B5 /* Main.storyboard in Resources */,
 			);
@@ -337,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956BC6B31D5FF1FA006AF440 /* countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956BC6B41D5FF1FA006AF440 /* countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

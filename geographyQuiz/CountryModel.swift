@@ -12,7 +12,7 @@ import CoreData
 class CountryModel: NSManagedObject {
     
     convenience init(name: String, continent: String, coordinates: String, coordType: String,  context : NSManagedObjectContext){
-        if let ent = NSEntityDescription.entityForName("LandArea",inManagedObjectContext: context){
+        if let ent = NSEntityDescription.entityForName("CountryModel",inManagedObjectContext: context){
             self.init(entity: ent, insertIntoManagedObjectContext: context)
             self.name = name
             self.continent = continent
